@@ -128,5 +128,6 @@ output application/json
     </flow>
     <flow name="get:\sampledata\(signup):sampleprojectforall-config">
         <set-payload value='#["pls sign in"]' doc:name="Set Payload" doc:id="26b4c6cf-4dd7-45ae-a8a3-f9879af85871" />
+		<logger level="INFO" doc:name="Logger" doc:id="8c1beede-fbc6-4a00-a6b8-6ee6ada165a1" message="HI MASTANI"/>
     </flow>
 </mule>
